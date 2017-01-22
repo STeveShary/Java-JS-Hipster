@@ -1,0 +1,2 @@
+# Java-8 and JS-ES6 Comparison
+This repository shows some examples of how Modern Java and JS have a similar style of code and that both are rather equivalent in verbosity, testing, and flow.  While there are definitely differences between the two languages, there are also many points that are very comparable.  The sub-projects for this repository contain complete working examples that compare the two languages.
