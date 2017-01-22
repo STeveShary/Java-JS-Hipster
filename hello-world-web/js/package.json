@@ -1,0 +1,23 @@
+{
+  "name": "hello-world",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --compilers js:babel-core/register",
+    "build": "./node_modules/babel-cli/bin/babel.js src/ -d dist/",
+    "clean": "rm -rf dist",
+    "start": "node ./dist/main.js"
+  },
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "mocha": "^3.2.0",
+    "supertest": "^2.0.1"
+  }
+}
+
+
+
+
