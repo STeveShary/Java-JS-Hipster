@@ -2,7 +2,7 @@
   "name": "hello-world",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha --compilers js:babel-core/register",
-    "build": "./node_modules/babel-cli/bin/babel.js src/ -d dist/",
+    "build": "npm install && ./node_modules/babel-cli/bin/babel.js src/ -d dist/",
     "clean": "rm -rf dist",
     "start": "node ./dist/main.js"
   },
